@@ -1,6 +1,6 @@
 # Go-Projects
-this are the projects I made during my training duration
-Some are hosted
+# this are the projects I made during my training duration
+## Some are hosted
 https://goodluckinstitue.000webhostapp.com/
 https://goodluckfood.000webhostapp.com/#home
 https://goagriculture.herokuapp.com/
