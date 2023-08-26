@@ -1,0 +1,71 @@
+{
+    "products": [
+    {
+     "id": "1",
+      "title": "Orange",
+      "price": "23"
+    },
+    {
+      "id": "2",
+      "title": "Mango",
+      "price": "78"
+    },
+    {
+      "id": "3",
+      "title": "Banana",
+      "price": "45"
+    },
+    {
+      "id": "4",
+      "title": "Pineapple",
+      "price": "233"
+    },
+    {
+      "id": "5",
+      "title": "Cherry",
+      "price": "87"
+    },
+    {
+      "id": "6",
+      "title": "Watermelon",
+      "price": "95"
+    },
+    {
+      "id": "7",
+      "title": "Imli",
+      "price": "26"
+    },
+    {
+      "id": "8",
+      "title": "Apple",
+      "price": "86"
+    },
+    {
+      "id": "9",
+      "title": "ryan",
+      "price": "71"
+    },
+    {
+      "id": "10",
+      "title": "Mosambi",
+      "price": "56"
+    },
+    {
+      "id": "11",
+      "title": "Raw mango",
+      "price": "92"
+    }
+  ],
+  "notes":[
+    {
+      "id": "1",
+      "title": "Go to Mall",
+      "description": "mall on sunday at 4pm"
+    },
+    {
+      "id": "2",
+      "title": "Buy Cloths",
+      "description": "Cloths for tomorrow Party"
+    }
+  ]
+}

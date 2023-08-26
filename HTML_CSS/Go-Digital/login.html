@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome to Goodluck Digitals login</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 150px 100px;
+      background: rgba(128, 128, 128, 0.195);
+      overflow: hidden;
+    }
+    .goodluck {
+      margin-right: 50px;
+    }
+    p {
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    span {
+      color: rgba(13, 13, 65);
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: 1px solid rgb(251, 247, 247);
+      background-color: rgb(253, 253, 253);
+      box-shadow: 0px 0px 4px 4px rgb(182, 176, 176); 
+      padding: 10px;
+      height: 300px;
+      width: 400px;
+      border-radius: 10px;
+    }
+    #email,
+    #psw {
+      margin: 10px;
+      width: 22rem;
+      height: 40px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      font-size: 15px;
+      padding: 0 10px;
+      align-items: stretch;
+    }
+    button {
+      margin: 10px;
+      width: 23.5rem;
+      height: 40px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      background-color: rgba(13, 13, 65, 0.896);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: aliceblue;
+    }
+    button:hover {
+      background-color: rgb(9, 9, 59);
+    }
+    a {
+      text-decoration: none;
+    }
+    #nu {
+      margin-top: 30px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+     @media screen and (max-width: 500px) { 
+        body{
+            /* flex-direction: column; */
+            margin: 15px;
+        }
+        .goodluck{
+            margin-bottom: 50px;
+        }
+    }
+  </style>
+  <body>
+    <div class="goodluck">
+      <p>
+        <span><b>Goodluck Digitals</b></span
+        ><br /><br />
+        Relaiable | Product Oriented | Guranted Service
+      </p>
+    </div>
+    <div class="container">
+      <div class="persona">
+        <input
+          type="Email"
+          id="email"
+          placeholder="Email address or phone number"
+        />
+      </div>
+      <div><input type="Password" id="psw" placeholder="Password" /><br /></div>
+      <div>
+        <button>Log In</button>
+        <p><a href="#">Forgotten Password</a></p>
+        <p id="nu">New User?&nbsp; &nbsp;<a href="#">Sign Up</a></p>
+      </div>
+    </div>
+  </body>
+</html>

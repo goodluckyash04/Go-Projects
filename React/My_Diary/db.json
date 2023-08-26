@@ -1,0 +1,99 @@
+{
+  "notes": [
+    {
+      "title": "Yash",
+      "detail": "Goodluck",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "title": "Yash",
+      "detail": "Gandhi",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "title": "Yash",
+      "detail": "Mehta",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "title": "Go to Mall",
+      "detail": "Buy Cloths",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "title": "efwf",
+      "detail": "wffwf",
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "title": "ewffwefwefe",
+      "detail": "wfwefewfew",
+      "userId": "3",
+      "id": 9
+    },
+    {
+      "title": "aeaef",
+      "detail": "eafaff",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "title": "efweweff",
+      "detail": "wefwff",
+      "userId": "4",
+      "id": 11
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "admin",
+      "userId": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": 1,
+      "name": "yash",
+      "userId": 2,
+      "email": "yash@gmail.com",
+      "password": "yash123"
+    },
+    {
+      "name": "Nilesh",
+      "email": "nilesh@gmail.com",
+      "password": "nilesh123",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "daya",
+      "email": "daya@gmail.com",
+      "password": "daya123",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Mitesh",
+      "email": "mitesh@gmail.com",
+      "password": "mitesh123",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "XYZ",
+      "email": "abc@gmail.com",
+      "password": "abc@123",
+      "userId": 2,
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgba(19, 60, 82);
+    color: aliceblue;
+    padding: 10px;
+    height: 60px;
+    position: sticky;
+    top:0;
+    
+}
+#navbar h1{
+    padding: 7px 5px ;
+}
+ul{ 
+    display: flex;
+    padding: 8px;
+}
+ul li{
+    list-style-type: none;
+    padding: 0 5px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+#login{
+    padding-top: 2px;
+}
+ul li a:hover{
+    background: white;
+    color: rgb(19, 60, 82);
+    border-radius: 10px;
+}
+.searchbar{
+        padding:5px;
+}
+div input[type="text"]{
+    padding: 5px;
+    width: 300px;
+    border-radius: 15px;
+ 
+}
+ul li #city{
+    padding: 3px;
+    border-radius: 5px;
+    width:auto;
+}
+.searchbar .btn{
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.searchbar .btn:hover{
+    background-color: aliceblue;
+}
+.namelogo a{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#listbar{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color:rgb(61, 33, 88) ;
+    position: fixed;
+    top:60px;
+    width: 100%;
+}
+#listbar select{
+    border: none;
+    height: 40px;
+    background-color: rgb(61, 33, 88) ;
+    color: aliceblue;
+    font-size: 13.5px;
+    font-weight:lighter;
+    padding: 5px;
+}
+#listbar select:hover{
+    background-color: rgba(19, 60, 82);
+}
+.offercards{
+    display: flex;
+    flex-direction: column;   
+}
+ .offer{
+    margin-top:100px ;
+}
+#offer1,#offer2{
+    margin: 5px 0;
+    /* width: 50vw;
+    height: 200px; */
+}
+
+.keycat {
+    display: flex;
+    justify-content: center;
+    margin:25px
+}
+.keycat a img{
+    margin: 0 5px;
+    width: 250px;
+}
+
+.best1,.best2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.spoffers{
+    display: flex;
+    justify-content: center;
+}
+.spoffers a img{
+    width: 40vw;
+    height: 70vh;
+    margin-right: 10px;
+}
+footer{
+    background-color: rgb(61, 33, 88) ;
+    color: aliceblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+}   
+.footer ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    margin: 7px;
+}
+.copyright{
+    background-color: rgba(19, 60, 82);
+    height:40px;
+    padding: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    /* height:60px; */
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content:space-between;
+    text-align: center;
+    background-color: rgb(13, 20, 75);
+    
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.flpkrt{
+    font-size: 25px;
+    margin-right:10px ;
+}
+select{
+    border: none;
+    font-size: 15px;
+    background-color:rgb(13, 20, 75) ;
+    color: aliceblue;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+input[type="search"]{
+    padding: 10px;
+    width: 35vw;
+}
+
+.carousel-cell img{
+    margin:10px;
+    height: 300px;
+    width: 1680px;
+}
+.carousel-cell {
+    /* height: 1000px; */
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    text-align: center;
+  }
+  section{
+      margin:20px 30px;
+      background-color: rgba(222, 184, 135, 0.406);
+      padding: 20px;
+  }
+  .books{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin:30px 0  ;
+  }
+  .books img{
+      width: 25vh;
+      height:30vh;
+      margin-bottom:10px;
+  }
+  p{
+      font-size: 20px;
+      text-align: center;
+  }
+  span{
+      color: red;
+  }
+footer{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+   background-color: rgb(13, 20, 75);
+   
+  }
+  footer a{
+    padding: 20px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .align-right{
+      margin-left: auto;
+  }
+button{
+    border: none;
+    font-size: 15px;
+    background: none ;
+    padding: 5px;
+}
+button:hover{
+   background-color: rgb(117, 117, 186);
+   color: aliceblue;
+   cursor: pointer;
+   border: 1px solid rgb(20, 13, 78);
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav{
+       flex-direction: column ;
+    }   
+    nav div{
+        margin-bottom: 5px;
+    }
+    .books{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+  } 
+  
+  
